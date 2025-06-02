@@ -1,4 +1,4 @@
-# Rick and Morty API Consumer 🔥
+# Rick and Morty Backend 🔥
 Este proyecto es una API REST construida con Spring Boot que permite buscar personajes de la serie **Rick and Morty** por nombre, consultando la API pública: https://rickandmortyapi.com/
 y devolviendo información sobre el personaje y sus episodios.
 
