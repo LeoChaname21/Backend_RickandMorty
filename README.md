@@ -8,3 +8,24 @@ y devolviendo información sobre el personaje y sus episodios.
 **Query Params** : name
 
 En el parámetro name escribir el personaje que desea ver sus datos.
+
+## Respuesta esperada (200) ✔:
+```json
+[
+  {
+    "nombre": "Rick Sanchez",
+    "estado": "Alive",
+    "especie": "Human",
+    "location": "Citadel of Ricks",
+    "imagen": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+    "episodios": [
+      "Pilot - S01E01",
+      ...
+    ]
+  }
+]
+```
+## Personaje no encontrado (404) ❌:
+```json
+{"error":"No se encontro el personaje"}
+```
